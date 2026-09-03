@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<!--html means like element . Element means which contains the start tag and end tag-->
+<!-- can i create the element with another element yes we can create-->
+<!-- html is nothing but used to create the content-->
+<!-- modern brower uses this need to support all languages like symbols etc all -->
+<!-- charset means element attritube some additonal information about the element when u run need to understand characterset,attritude value always in double or single quatation  -->
+<!-- it doesnot show the blackspace-->
+<!--can i create the comment in my code and dont want to see that comment in the brower? yes-->
+<!-- strong and bold is same but strong is search engine we can search but bold not so browser awaits the bold -->
+<!-- sections also element describes about the content give the headings for that also it seems the topic give  -->
+<!--aside is also an element give the additional information about the main content in side -->
+<!-- this are all the sematic elements which means search engine can understand easily-->
+<!--blockquote is also elemennt like quatation -->
+<!-- upper-aplha means A, B, C, ... -->
+<!-- if we want star also from image ul{
+            list-style-image: url('star.png');
+        } -->
+<!--span elemenet means a container for a small portion of text u can apply-->
+<!-- div is used to group elements together -->
+<!-- div{
+            style:"text-align: justify";
+-->
+<!-- with in the class also we can give in the div for example 
+-->
+
+
+
+
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title> HTML Basics </title>
+    <style>
+        /* element selector */
+        p {
+            text-align: justify;
+            color: blue;
+        }
+
+        h2 {
+            text-align: left;
+        }
+
+        ol {
+            list-style-type: upper-alpha;
+        }
+
+        ul {
+            list-style-type: square;
+        }
+
+        /*what ever elements which contains the divClass value 
+        element class atrrtribe which contains the divClass value
+        class selector used for group the values */
+        .divClass {
+            text-align: justify;
+            font-style: italic;
+        }
+
+        /* in paragraph which has class divclass it have red */
+        .divClass p {
+            color: red;
+
+        }
+
+        /* id selector used for unique element */
+        #third {
+            color: green;
+        }
+    </style>
+</head>
+
+
+<body>
+    <h1 style="text-align: Arial,Helvetica"> Header </h1>
+    <section>
+        <h2>Section 1</h2>
+        <p>This is the content for section 1.</p>
+    </section>
+    <div style="text-align: justify;">
+        <!-- if their are 2 or more paragraphs w e have to do for all justify then its diffucuilt so use constent means like style give-->
+        <P style="text-align: justify;">My name is Vishnu Sai.I am a hardworking positive, and self-motivated person. I
+            have
+            completed my education and <span>I am interested</span> in building a successful career. I always try to
+            learn new things and
+            improve my knowledge and skills.</P>
+
+
+        <P><b>I am a quick </b> learner and I enjoy communicating with people. I believe that good communication, active
+            listening, patience, and teamwork are important qualities in both personal and professional life. I always
+            try
+            to understand others and respond to situations in a calm and respectful way.
+        </P>
+
+        <p><i>My strengths are that I am adaptable, responsible, and willing to take on new challenges. I can work
+                independently as well as with a team. When I face a difficult situation, I try to identify the problem,
+                think of possible solutions, and choose the best approach.</i></p>
+
+        <P>My goal is to start my career in a good organization where I can learn, gain practical experience, and
+            contribute
+            to the company’s growth. I want to continuously develop my skills and become a successful professional. I
+            believe that hard work, dedication, and a positive attitude will help me achieve my goals.
+        </P>
+
+    </div>
+    <div class="divClass">
+        <!-- if their are 2 or more paragraphs w e have to do for all justify then its diffucuilt so use constent means like style give-->
+        <P style="text-align: justify;">My name is Vishnu Sai.I am a hardworking positive, and self-motivated person. I
+            have
+            completed my education and <span>I am interested</span> in building a successful career. I always try to
+            learn new things and
+            improve my knowledge and skills.</P>
+    </div>
+</body>
+
+</html>
+<aside>
+    <blockquote>
+        hardworking and self-motivated person
+    </blockquote>
+    I am a hardworking and self-motivated person with a positive attitude. I am a quick learner with good
+    communication and teamwork skills. My goal is to build a successful career by continuously learning and
+    improving my skills.
+</aside>
+
+<h1 id="third"> ordered list</h1>
+<ol type="A">
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+</ol>
+<ul>
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+</ul>
+</body>
+
+</html>
