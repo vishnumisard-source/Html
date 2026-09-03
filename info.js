@@ -1,0 +1,1 @@
+export var companyname = "misard";
