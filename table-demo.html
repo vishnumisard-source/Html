@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<!--table td{
+            border: 1px solid black;
+            border-spacing: 0px;
+        } we can use both this like also-->
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title> HTML Basics </title>
+    <style>
+        table {
+            border: 1px solid black;
+            border-spacing: 0px;
+        }
+
+        td {
+            border: 1px solid red;
+            border-spacing: 0px;
+        }
+
+        table {
+            width: 300px;
+            height: 300px;
+        }
+
+        td {
+            text-align: center;
+            vertical-align: middle;
+            padding: 10px;
+        }
+
+        th {
+            background-color: lightblue;
+            text-align: center;
+            vertical-align: middle;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1> Table Demo </h1>
+    <!--thead means table header and data cells-->
+    <!--tbody means table body and data cells-->
+    <!-- rowspan and colspan is used to combine cells-->
+
+    <table>
+        <thead>
+            <tr>
+                <th>c1</th>
+                <th>c2</th>
+                <th>c3</th>
+
+
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td style="background-color: lightgray;" rowspan="2">d1</td>
+                <td>d2</td>
+                <td>d3</td>
+            </tr>
+            <tr>
+                <!--<td>dr1</td>-->
+                <td>dr2</td>
+                <td>dr3</td>
+            </tr>
+            <tr>
+                <td>dr4</td>
+                <td>dr5</td>
+                <td>dr6</td>
+            </tr>
+            <tr>
+                <td>dr7</td>
+                <td>dr8</td>
+                <td>dr9</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
